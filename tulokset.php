@@ -21,7 +21,7 @@
 		$tiedot = $conn->query($sql)->fetch_assoc();
 	}
 ?>
-<a href="/~T2017051002/sivu?sivu=lisaatulos" class="btn btn-success">Lisää tietoja</a>
+<a href="/?sivu=lisaatulos" class="btn btn-success">Lisää tietoja</a>
 <h1>Sinun tasoituksesi on: <?php if(isset($tiedot['pikajuoksut'])&&isset($tiedot['kestavyys'])&&isset($tiedot['hypyt'])&&isset($tiedot['heitot']))echo round(-($tiedot['pikajuoksut']+$tiedot['kestavyys']+$tiedot['hypyt']+$tiedot['heitot'])/100+41, 1);?></h1>
 <br>
 <div id="laatikko">
@@ -59,7 +59,7 @@
 		<input name="heitot" type="text" value="<?php echo $tiedot['heitot']?>" hidden>
 		<?php
 		echo '<a class="btn btn-default" onclick="document.getElementById(\'formi\').submit()">Tallenna</a>';
-		echo '<a href="/~T2017051002/sivu?sivu=lisaatulos" class="btn btn-default">Laske uusi</a>';
+		echo '<a href="/?sivu=lisaatulos" class="btn btn-default">Laske uusi</a>';
 		
 	}
 ?>
