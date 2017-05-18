@@ -25,7 +25,7 @@ define('DB_USER', 'azure');
 define('DB_PASSWORD', 'password');
 
 /** MySQL hostname : this contains the port number in this format host:port . Port is not 3306 when using this feature*/
-define('DB_HOST', $connectstr_dbhost);
+define('DB_HOST', 'localhost');
 
 
 
