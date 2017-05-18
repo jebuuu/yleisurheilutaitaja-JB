@@ -16,13 +16,13 @@ foreach ($_SERVER as $key => $value) {
     $connectstr_dbpassword = preg_replace("/^.*Password=(.+?)$/", "\\1", $value);
 }
 
-define('DB_NAME', $connectstr_dbname);
+define('DB_NAME', 'yleisurheilutaitaja');
 
 /** MySQL database username */
-define('DB_USER', $connectstr_dbusername);
+define('DB_USER', 'azure');
 
 /** MySQL database password */
-define('DB_PASSWORD', $connectstr_dbpassword);
+define('DB_PASSWORD', 'password');
 
 /** MySQL hostname : this contains the port number in this format host:port . Port is not 3306 when using this feature*/
 define('DB_HOST', $connectstr_dbhost);
