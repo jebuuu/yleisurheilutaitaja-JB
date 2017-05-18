@@ -4,7 +4,7 @@
 		//tietokantaan
 	} else {
 ?>
-<form action="/~T2017051002/sivu/?sivu=rekisteroidy" method="post">
+<form action="/?sivu=rekisteroidy" method="post">
 	<div id="rekisteroityminen" class="input-group">
 		Nimi<input class="form-control" type="text" name="nimi" placeholder="Nimi" required><br>
 		Syntymäaika<input class="form-control" type="date" name="ika" required><br>
@@ -17,6 +17,6 @@
 	</div>
 </form>
 
-<img alt="voitto onninen" id="tiedotkuva" src="/~T2017051002/sivu/img/vo_venyttely.jpg">
+<img alt="voitto onninen" id="tiedotkuva" src="/img/vo_venyttely.jpg">
 
 <?php } ?>

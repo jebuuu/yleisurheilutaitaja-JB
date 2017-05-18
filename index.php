@@ -5,7 +5,7 @@ if(isset($_GET['sivu'])){
 	if(isset($_SESSION['username'])||$_GET['sivu']=='kirjaudu'||$_GET['sivu']=='rekisteroidy'||$_GET['sivu']=='etusivu'){
 		require($_GET['sivu'].'.php');
 	} else {
-		header('Location: /~T2017051002/sivu/?sivu=kirjaudu');
+		header('Location: /?sivu=kirjaudu');
 	}
 	require('footer.php');
 } else {

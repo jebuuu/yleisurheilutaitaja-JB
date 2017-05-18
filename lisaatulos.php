@@ -27,7 +27,7 @@ $( document ).ready(function() {
   <li id="hypyt" role="presentation"><a onclick="valilehti('hypyt')">Hypyt</a></li>
   <li id="heitot" role="presentation"><a onclick="valilehti('heitot')">Heitot</a></li>
 </ul>
-<form class="input-group" action="/~T2017051002/sivu/?sivu=tulokset" method="post">
+<form class="input-group" action="/?sivu=tulokset" method="post">
 <div id="tabpikajuoksut"> <br>
 <table>
 <tr><td>40m: </td><td><input type="text" name="40m" class="form-control"></td><td> sekuntia </td></tr>

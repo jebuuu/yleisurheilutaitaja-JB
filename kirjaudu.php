@@ -7,11 +7,11 @@
 			$_SESSION['username']=$user['tunnus'];
 			$_SESSION['userid']=$user['id'];
 			echo 'Kirjautuminen onnistui';
-			header('Location: /~T2017051002/sivu/');
+			header('Location: /');
 		}
 	} else {
 ?>
-<form action="/~T2017051002/sivu/?sivu=kirjaudu" method="post">
+<form action="/?sivu=kirjaudu" method="post">
 	<div id="rekisteroityminen" class="input-group">
 		Nimi<input class="form-control" type="text" name="nimi" placeholder="Nimi" required><br>
 		Salasana<input class="form-control" type="password" name="salasana" placeholder="Salasana" required><br>
@@ -19,7 +19,7 @@
 	
 	</div>	
 </form>
-<img alt="voitto onninen" id="tiedotkuva" src="/~T2017051002/sivu/img/vo_juoma.jpg">
+<img alt="voitto onninen" id="tiedotkuva" src="/img/vo_juoma.jpg">
 
 
 <?php } ?>

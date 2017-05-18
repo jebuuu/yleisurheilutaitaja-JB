@@ -3,14 +3,14 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Yleisurheilutaitaja</title>
-<link rel="stylesheet" type="text/css" href="/~T2017051002/sivu/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="tyylit.css">
-<script src="/~T2017051002/sivu/jquery-3.2.1"></script>
+<script src="/jquery-3.2.1"></script>
 </head>
 <body>
 <div id="header">
 <h1 id="otsikko">YLEISURHEILUTAITAJA</h1>
-<img alt="Suomen urheiluliiton logo" id="logo" src="/~T2017051002/sivu/img/SUL_logo_pysty_RGB">
+<img alt="Suomen urheiluliiton logo" id="logo" src="/img/SUL_logo_pysty_RGB">
 </div>
 <div id="sivu">
 <div id="menu" class="col-md-2">
