@@ -16,7 +16,7 @@
 		}
 		fclose($handle);
 	} else {
-		$conn = new mysqli('localhost', 'T2017051002', '1e728d9d4c', 'T2017051002');
+		$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 		$sql = "SELECT pikajuoksut, kestavyys, hypyt, heitot FROM users WHERE id =".$_SESSION['userid'];
 		$tiedot = $conn->query($sql)->fetch_assoc();
 	}

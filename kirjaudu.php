@@ -1,6 +1,6 @@
 <?php
 	if(isset($_POST['kirjaudu'])){
-		$conn = new mysqli('localhost', 'T2017051002', '1e728d9d4c', 'T2017051002');
+		$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 		$sql = "SELECT * FROM users WHERE tunnus = '".$_POST['nimi']."'";
 		$user = $conn->query($sql)->fetch_assoc();
 		if($_POST['nimi']===$user['tunnus'] && $_POST['salasana']===$user['salasana']){

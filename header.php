@@ -16,14 +16,14 @@
 <div id="menu" class="col-md-2">
 <?php
 if(!isset($_SESSION['username'])){?>
-<a href="/~T2017051002/sivu?sivu=rekisteroidy" id="rekisteroidy" class="btn btn-success kirjautuminen">Rekisteröidy</a>&nbsp;&nbsp;
-<a href="/~T2017051002/sivu?sivu=kirjaudu" id="kirjaudu" class="btn btn-success kirjautuminen">Kirjaudu</a>
-<?php } else {echo '<a href="/~T2017051002/sivu?sivu=kirjauduulos" id="kirjaudu" class="btn btn-danger kirjautuminen">Kirjaudu ulos ('.$_SESSION['username'].')</a>';}?>
+<a href="/sivu?sivu=rekisteroidy" id="rekisteroidy" class="btn btn-success kirjautuminen">Rekisteröidy</a>&nbsp;&nbsp;
+<a href="/sivu?sivu=kirjaudu" id="kirjaudu" class="btn btn-success kirjautuminen">Kirjaudu</a>
+<?php } else {echo '<a href="/sivu?sivu=kirjauduulos" id="kirjaudu" class="btn btn-danger kirjautuminen">Kirjaudu ulos ('.$_SESSION['username'].')</a>';}?>
 <ul class="nav nav-pills-stacked">
-  <li role="presentation" class="napit"><a href="/~T2017051002/sivu?sivu=etusivu">Etusivu</a></li>
-  <li role="presentation" class="napit"><a href="/~T2017051002/sivu?sivu=tulokset">Omat tulokset</a></li>
-  <li role="presentation" class="napit"><a href="/~T2017051002/sivu?sivu=tiedot">Omat tiedot</a></li>
-  <li role="presentation" class="napit"><a href="/~T2017051002/sivu?sivu=linkkeja">Ohjeita ja linkkejä</a></li>
+  <li role="presentation" class="napit"><a href="/sivu?sivu=etusivu">Etusivu</a></li>
+  <li role="presentation" class="napit"><a href="/sivu?sivu=tulokset">Omat tulokset</a></li>
+  <li role="presentation" class="napit"><a href="/sivu?sivu=tiedot">Omat tiedot</a></li>
+  <li role="presentation" class="napit"><a href="/sivu?sivu=linkkeja">Ohjeita ja linkkejä</a></li>
 </ul>
 </div>
 
