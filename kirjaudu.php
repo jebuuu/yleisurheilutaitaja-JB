@@ -7,11 +7,11 @@
 			$_SESSION['username']=$user['tunnus'];
 			$_SESSION['userid']=$user['id'];
 			echo 'Kirjautuminen onnistui';
-			header('Location: /');
+			header('Location: /?sivu=etusivu');
 		}
 	} else {
 ?>
-<form action="/?sivu=kirjaudu" method="post">
+<form method="post">
 	<div id="rekisteroityminen" class="input-group">
 		Nimi<input class="form-control" type="text" name="nimi" placeholder="Nimi" required><br>
 		Salasana<input class="form-control" type="password" name="salasana" placeholder="Salasana" required><br>
