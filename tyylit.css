@@ -57,6 +57,7 @@ img{
 	float: right;
 }
 #logo{
+	border-radius: 0px;
 	height: 100px;
 	position: absolute;
 	top:0;
