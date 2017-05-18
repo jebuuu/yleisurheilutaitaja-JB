@@ -10,7 +10,7 @@
 <body>
 <div id="header">
 <h1 id="otsikko">YLEISURHEILUTAITAJA</h1>
-<img alt="Suomen urheiluliiton logo" id="logo" src="/img/SUL_logo_pysty_RGB.jpg">
+<img alt="Suomen urheiluliiton logo" id="logo" src="/img/Taitaja2017_logo.jpg">
 </div>
 <div id="sivu">
 <div id="menu" class="col-md-2">
